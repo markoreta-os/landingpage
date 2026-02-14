@@ -1,1 +1,0 @@
-/Users/markoreta/projects/coding-ai-config/AGENTS.md
