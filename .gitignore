@@ -2,3 +2,7 @@
 *.swp
 *.swo
 node_modules/
+.github/
+generated_image.png
+assets/hero.png
+os logo small.jpg
