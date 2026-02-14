@@ -3,8 +3,8 @@
 ## Current Phase
 | Field | Value |
 |-------|-------|
-| Phase | 1 |
-| Name | Concept & Seed |
+| Phase | 7 |
+| Name | Test Design |
 | Status | completed |
 | Start Date | 2026-02-13 |
 | Last Updated | 2026-02-13 |
@@ -31,6 +31,7 @@ current: 0.1.0
 | Phase | Name | Start | End | Status | Summary |
 |-------|------|-------|-----|--------|---------|
 | 1 | Concept & Seed | 2026-02-13 | 2026-02-13 | completed | Scope: small. Single static page with full-screen hero image. GitHub Pages hosting. |
+| 7 | Test Design | 2026-02-13 | 2026-02-13 | completed | 12 smoke tests (11 RED). Shell-based validation of HTML, CSS, image, CNAME, hygiene. |
 
 ## Key Decisions
 | Phase | Decision | Choice | Rationale | Date |
@@ -45,7 +46,7 @@ current: 0.1.0
 |-------|------|-----------------|---------|
 
 ## Pending Actions
-- [ ] Phase 7: Design tests
+- [x] Phase 7: Design tests
 - [ ] Phase 8: Implement
 - [ ] Create GitHub repo and configure Pages
 - [ ] Configure custom domain DNS
