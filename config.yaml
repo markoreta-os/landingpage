@@ -1,7 +1,7 @@
 # Project Configuration
 
 project:
-  name: oretasolutions
+  name: main-landingpage
   mode: new_project
   scope: small
 

@@ -38,7 +38,7 @@ echo ""
 
 # --- Test 2: Hero image is referenced and exists ---
 echo "Test 2: Hero image is referenced"
-IMG_REF=$(grep -oE '(src|url\()["'"'"']*[^"'"'"'\)]+\.(jpg|jpeg|png|webp|avif)' "$ROOT/index.html" 2>/dev/null | head -1 || true)
+IMG_REF=$(grep -oE '(src|url\()=?["'"'"']*[^"'"'"'\)]+\.(jpg|jpeg|png|webp|avif)' "$ROOT/index.html" 2>/dev/null | head -1 || true)
 
 if [[ -n "$IMG_REF" ]]; then
     pass "Image referenced in HTML"
