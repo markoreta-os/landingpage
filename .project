@@ -1,0 +1,55 @@
+# Project State
+
+## Current Phase
+| Field | Value |
+|-------|-------|
+| Phase | 1 |
+| Name | Concept & Seed |
+| Status | completed |
+| Start Date | 2026-02-13 |
+| Last Updated | 2026-02-13 |
+
+## Project Overview
+| Field | Value |
+|-------|-------|
+| Mode | new_project |
+| Scope | small |
+| Feature Name | N/A |
+| Target Output | Full-screen hero image placeholder page for oretasolutions.com |
+| Target Audience | Visitors to oretasolutions.com (potential clients, partners) |
+| Success Criteria | Full-screen responsive image, fast load, deployed to GitHub Pages |
+
+## Version
+current: 0.1.0
+
+## Version History
+| Version | Date | Phase | Change Type | Description | Reasoning |
+|---------|------|-------|-------------|-------------|-----------|
+| 0.1.0 | 2026-02-13 | 1 | Initial | Project scaffolding | New project creation |
+
+## Phase History
+| Phase | Name | Start | End | Status | Summary |
+|-------|------|-------|-----|--------|---------|
+| 1 | Concept & Seed | 2026-02-13 | 2026-02-13 | completed | Scope: small. Single static page with full-screen hero image. GitHub Pages hosting. |
+
+## Key Decisions
+| Phase | Decision | Choice | Rationale | Date |
+|-------|----------|--------|-----------|------|
+| 1 | Scope | Small | Single static page, no interactivity, no backend | 2026-02-13 |
+| 1 | Hosting | GitHub Pages | Free, simple, supports custom domains | 2026-02-13 |
+| 1 | Content | Image only, no text | User wants clean visual placeholder | 2026-02-13 |
+| 1 | Tech | Static HTML/CSS | Simplest approach for a single image page | 2026-02-13 |
+
+## Council Deliberations
+| Phase | Date | Conversation ID | Outcome |
+|-------|------|-----------------|---------|
+
+## Pending Actions
+- [ ] Phase 7: Design tests
+- [ ] Phase 8: Implement
+- [ ] Create GitHub repo and configure Pages
+- [ ] Configure custom domain DNS
+- [ ] User to provide hero image
+
+## Blockers
+- Hero image needed from user before Phase 8

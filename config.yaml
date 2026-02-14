@@ -1,0 +1,30 @@
+# Project Configuration
+
+project:
+  name: oretasolutions
+  mode: new_project
+  scope: small
+
+# Model settings
+models:
+  default: sonnet
+  opus_allowed: false
+
+council:
+  enabled: false
+  tier: free
+
+phases:
+  skip: []
+  require_approval: []
+
+tech_stack:
+  frontend: html/css/js
+
+testing:
+  framework: none
+  coverage_target: 0
+  smoke_only: true
+
+skills:
+  auto_sync_backlog: true
