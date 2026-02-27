@@ -28,3 +28,6 @@ testing:
 
 skills:
   auto_sync_backlog: true
+
+orchestration:
+  multi_worker: true
