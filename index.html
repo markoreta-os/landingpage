@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oreta Solutions</title>
+    <title>Oreta Solutions LLC — Virtual Property Manager &amp; Virtual Assistance</title>
+    <meta name="description" content="Oreta Solutions LLC builds Virtual Property Manager (VPM), residential property-management software and service, and Virtual Assistance — AI assistants that handle calls, voicemail and routine operations for small businesses.">
     <style>
         * {
             margin: 0;
@@ -13,9 +14,10 @@
 
         body {
             margin: 0;
-            height: 100vh;
-            overflow: hidden;
             background: #0a0a0a;
+            color: #e8e6e3;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            -webkit-font-smoothing: antialiased;
         }
 
         .scene {
@@ -106,6 +108,115 @@
             .sun-glow-core { width: 136px; height: 136px; }
             .sun-glow-wide { width: 357px; height: 357px; }
         }
+
+        /* Fade the hero into the content below so the join reads as one page */
+        .scene::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 22vh;
+            background: linear-gradient(to bottom, transparent, #0a0a0a);
+            z-index: 4;
+            pointer-events: none;
+        }
+
+        main {
+            max-width: 60rem;
+            margin: 0 auto;
+            padding: 0 1.5rem 5rem;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 1rem 0 4rem;
+        }
+
+        h1 {
+            font-size: 1.9rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.75rem;
+        }
+
+        .legal-name {
+            color: #8f8a84;
+            font-size: 0.9rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .lede {
+            font-size: 1.05rem;
+            line-height: 1.75;
+            color: #c9c5c0;
+            max-width: 38rem;
+            margin: 0 auto;
+        }
+
+        .products {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: 1fr;
+        }
+
+        @media (min-width: 820px) {
+            .products { grid-template-columns: 1fr 1fr; }
+        }
+
+        .card {
+            background: #121212;
+            border: 1px solid #232323;
+            border-radius: 1rem;
+            padding: 2rem;
+        }
+
+        .card h2 {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: #ffd98a;
+        }
+
+        .card p {
+            line-height: 1.7;
+            color: #c9c5c0;
+            margin-bottom: 1rem;
+        }
+
+        .card ul {
+            line-height: 1.85;
+            color: #c9c5c0;
+            padding-left: 1.15rem;
+        }
+
+        a { color: #ffd98a; text-decoration: none; border-bottom: 1px solid rgba(255, 217, 138, 0.35); }
+        a:hover { border-bottom-color: #ffd98a; }
+
+        .contact {
+            margin-top: 3rem;
+            text-align: center;
+            line-height: 1.9;
+            color: #c9c5c0;
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid #232323;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #8f8a84;
+            line-height: 2;
+        }
+
+        footer nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5rem 1.5rem;
+            margin-bottom: 1rem;
+        }
     </style>
 </head>
 <body>
@@ -115,5 +226,75 @@
         <div class="sun-glow sun-glow-core"></div>
         <img class="sun-logo" src="assets/logo.png" alt="Oreta Solutions">
     </div>
+
+    <main>
+        <section class="intro">
+            <h1>Oreta Solutions</h1>
+            <p class="legal-name">Oreta Solutions LLC</p>
+            <p class="lede">
+                We build software and services that take routine operational work off
+                small businesses — answering the call, capturing what matters, and
+                getting it to the right person.
+            </p>
+        </section>
+
+        <div class="products">
+            <section class="card">
+                <h2>Virtual Property Manager (VPM)</h2>
+                <p>
+                    Residential property management, run end to end. VPM handles
+                    maintenance requests and work orders, schedules showings and
+                    maintenance visits, processes rental applications, and keeps
+                    tenants, applicants and vendors informed about the homes they
+                    live in and work on.
+                </p>
+                <ul>
+                    <li>Maintenance requests and work-order coordination</li>
+                    <li>Showings, leasing and rental applications</li>
+                    <li>Vendor dispatch and scheduling</li>
+                    <li>Tenant, applicant and vendor communication</li>
+                </ul>
+                <p style="margin-top:1rem">
+                    <a href="https://vpm.oretasolutions.com/">Visit Virtual Property Manager &rarr;</a>
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>Virtual Assistance</h2>
+                <p>
+                    AI assistants that pick up the work a small team can't always get
+                    to — listening to voicemail, understanding what the caller needs,
+                    categorising it, and routing it to the person who can act. They
+                    draft replies for a human to approve rather than acting alone on
+                    anything that matters.
+                </p>
+                <ul>
+                    <li>Voicemail triage and summarisation</li>
+                    <li>Call handling and callbacks</li>
+                    <li>Routing and escalation to the right person</li>
+                    <li>Drafted responses, reviewed by a human before they send</li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="contact">
+            <p>
+                <strong>Email</strong> support@oretasolutions.com &nbsp;·&nbsp;
+                <strong>Phone</strong> (802) 644-7238
+            </p>
+        </section>
+
+        <footer>
+            <nav aria-label="legal and compliance">
+                <a href="https://vpm.oretasolutions.com/privacy">Privacy Policy</a>
+                <a href="https://vpm.oretasolutions.com/sms-terms">SMS Terms &amp; Consent</a>
+                <a href="https://vpm.oretasolutions.com/sms-optin">Text Message Opt-In</a>
+                <a href="https://vpm.oretasolutions.com/about">About VPM</a>
+            </nav>
+            <p>
+                &copy; Oreta Solutions LLC &nbsp;·&nbsp; support@oretasolutions.com &nbsp;·&nbsp; (802) 644-7238
+            </p>
+        </footer>
+    </main>
 </body>
 </html>
